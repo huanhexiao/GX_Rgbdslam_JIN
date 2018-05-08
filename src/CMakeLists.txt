@@ -29,4 +29,3 @@ TARGET_LINK_LIBRARIES( slambase ${OpenCV_LIBS} ${PCL_LIBRARIES} )
 
 ADD_EXECUTABLE( joinPointCloud joinPointCloud.cpp )
 TARGET_LINK_LIBRARIES( joinPointCloud slambase ${OpenCV_LIBS} ${PCL_LIBRARIES} )
-
