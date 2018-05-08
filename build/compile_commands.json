@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/src",
+  "command": "g++  -DDISABLE_PCAP -DDISABLE_PNG -DEIGEN_USE_NEW_STDVECTOR -DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET -DFLANN_STATIC -I/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/include -I/usr/include/vtk-5.8 -I/usr/include/pcl-1.7 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -isystem /usr/local/include -isystem /usr/local/include/opencv    -Wno-deprecated -g   -o CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/src/joinPointCloud.cpp",
+  "file": "/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/src/joinPointCloud.cpp"
+},
+{
+  "directory": "/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/src",
+  "command": "g++  -DDISABLE_PCAP -DDISABLE_PNG -DEIGEN_USE_NEW_STDVECTOR -DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET -DFLANN_STATIC -I/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/include -I/usr/include/vtk-5.8 -I/usr/include/pcl-1.7 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -isystem /usr/local/include -isystem /usr/local/include/opencv    -Wno-deprecated -g   -o CMakeFiles/slambase.dir/slamBase.cpp.o -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/src/slamBase.cpp",
+  "file": "/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/src/slamBase.cpp"
+}
+]

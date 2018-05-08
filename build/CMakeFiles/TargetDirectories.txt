@@ -1,0 +1,6 @@
+/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/rebuild_cache.dir
+/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/edit_cache.dir
+/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/src/CMakeFiles/rebuild_cache.dir
+/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/src/CMakeFiles/edit_cache.dir
+/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/src/CMakeFiles/joinPointCloud.dir
+/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/src/CMakeFiles/slambase.dir
