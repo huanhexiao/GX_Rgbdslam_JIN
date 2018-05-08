@@ -1,4 +1,4 @@
-# Install script for directory: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/src
+# Install script for directory: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

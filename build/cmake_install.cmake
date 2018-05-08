@@ -1,4 +1,4 @@
-# Install script for directory: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj
+# Install script for directory: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/src/cmake_install.cmake")
+  include("/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/src/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

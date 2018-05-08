@@ -39,7 +39,8 @@
                 "/usr/include/pcl-1.7",
                 "/usr/include/eigen3",
                 "${workspaceFolder}/include",
-                "/usr/include/vtk-5.8"
+                "/usr/include/vtk-5.8",
+                "/usr/include/vtk-6.2"
             ],
             "defines": [],
             "intelliSenseMode": "clang-x64",

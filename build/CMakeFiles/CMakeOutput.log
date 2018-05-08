@@ -1,6 +1,6 @@
-The system is: Linux - 4.4.0-121-generic - x86_64
+The system is: Linux - 4.13.0-39-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/gcc-4.8 
+Compiler: /usr/bin/gcc-5 
 Build flags: 
 Id flags:  
 
@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/3.11.0/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/g++-4.8 
+Compiler: /usr/bin/g++-5 
 Build flags: 
 Id flags:  
 
@@ -23,71 +23,80 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/3.11.0/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d2d8a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d2d8a.dir/build.make CMakeFiles/cmTC_d2d8a.dir/build
-make[1]: 正在进入目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d2d8a.dir/testCCompiler.c.o
-/usr/bin/gcc-4.8    -o CMakeFiles/cmTC_d2d8a.dir/testCCompiler.c.o   -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_d2d8a
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2d8a.dir/link.txt --verbose=1
-/usr/bin/gcc-4.8      -rdynamic CMakeFiles/cmTC_d2d8a.dir/testCCompiler.c.o  -o cmTC_d2d8a 
-make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f7560/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7560.dir/build.make CMakeFiles/cmTC_f7560.dir/build
+make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7560.dir/testCCompiler.c.o
+/usr/bin/gcc-5    -o CMakeFiles/cmTC_f7560.dir/testCCompiler.c.o   -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f7560
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7560.dir/link.txt --verbose=1
+/usr/bin/gcc-5      -rdynamic CMakeFiles/cmTC_f7560.dir/testCCompiler.c.o  -o cmTC_f7560 
+make[1]: Leaving directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_07d7b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_07d7b.dir/build.make CMakeFiles/cmTC_07d7b.dir/build
-make[1]: 正在进入目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_07d7b.dir/CMakeCCompilerABI.c.o
-/usr/bin/gcc-4.8    -o CMakeFiles/cmTC_07d7b.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_07d7b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07d7b.dir/link.txt --verbose=1
-/usr/bin/gcc-4.8     -v -rdynamic CMakeFiles/cmTC_07d7b.dir/CMakeCCompilerABI.c.o  -o cmTC_07d7b 
+Run Build Command:"/usr/bin/make" "cmTC_a7bb4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7bb4.dir/build.make CMakeFiles/cmTC_a7bb4.dir/build
+make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7bb4.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc-5    -o CMakeFiles/cmTC_a7bb4.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a7bb4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7bb4.dir/link.txt --verbose=1
+/usr/bin/gcc-5     -v -rdynamic CMakeFiles/cmTC_a7bb4.dir/CMakeCCompilerABI.c.o  -o cmTC_a7bb4 
 Using built-in specs.
-COLLECT_GCC=/usr/bin/gcc-4.8
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+COLLECT_GCC=/usr/bin/gcc-5
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.4' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_07d7b' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_07d7b /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_07d7b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
-make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a7bb4' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNhdrC2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a7bb4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a7bb4.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_07d7b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_07d7b.dir/build.make CMakeFiles/cmTC_07d7b.dir/build]
-  ignore line: [make[1]: 正在进入目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_07d7b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/gcc-4.8    -o CMakeFiles/cmTC_07d7b.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_07d7b]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07d7b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/gcc-4.8     -v -rdynamic CMakeFiles/cmTC_07d7b.dir/CMakeCCompilerABI.c.o  -o cmTC_07d7b ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a7bb4/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a7bb4.dir/build.make CMakeFiles/cmTC_a7bb4.dir/build]
+  ignore line: [make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_a7bb4.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc-5    -o CMakeFiles/cmTC_a7bb4.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a7bb4]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7bb4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc-5     -v -rdynamic CMakeFiles/cmTC_a7bb4.dir/CMakeCCompilerABI.c.o  -o cmTC_a7bb4 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/gcc-4.8]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc-5]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.4' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_07d7b' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_07d7b /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_07d7b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a7bb4' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNhdrC2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a7bb4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a7bb4.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccNhdrC2.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -100,19 +109,19 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_07d7b] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [cmTC_a7bb4] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
     arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTC_07d7b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_a7bb4.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -122,35 +131,35 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
   collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2d6e2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2d6e2.dir/build.make CMakeFiles/cmTC_2d6e2.dir/build
-make[1]: 正在进入目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2d6e2.dir/feature_tests.c.o
-/usr/bin/gcc-4.8   -std=c11 -o CMakeFiles/cmTC_2d6e2.dir/feature_tests.c.o   -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2d6e2
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d6e2.dir/link.txt --verbose=1
-/usr/bin/gcc-4.8      -rdynamic CMakeFiles/cmTC_2d6e2.dir/feature_tests.c.o  -o cmTC_2d6e2 
-make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fcc33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fcc33.dir/build.make CMakeFiles/cmTC_fcc33.dir/build
+make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcc33.dir/feature_tests.c.o
+/usr/bin/gcc-5   -std=c11 -o CMakeFiles/cmTC_fcc33.dir/feature_tests.c.o   -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fcc33
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcc33.dir/link.txt --verbose=1
+/usr/bin/gcc-5      -rdynamic CMakeFiles/cmTC_fcc33.dir/feature_tests.c.o  -o cmTC_fcc33 
+make[1]: Leaving directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -160,17 +169,17 @@ make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/M
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_69a5e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_69a5e.dir/build.make CMakeFiles/cmTC_69a5e.dir/build
-make[1]: 正在进入目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_69a5e.dir/feature_tests.c.o
-/usr/bin/gcc-4.8   -std=c99 -o CMakeFiles/cmTC_69a5e.dir/feature_tests.c.o   -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_69a5e
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69a5e.dir/link.txt --verbose=1
-/usr/bin/gcc-4.8      -rdynamic CMakeFiles/cmTC_69a5e.dir/feature_tests.c.o  -o cmTC_69a5e 
-make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b9ca6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9ca6.dir/build.make CMakeFiles/cmTC_b9ca6.dir/build
+make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9ca6.dir/feature_tests.c.o
+/usr/bin/gcc-5   -std=c99 -o CMakeFiles/cmTC_b9ca6.dir/feature_tests.c.o   -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b9ca6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9ca6.dir/link.txt --verbose=1
+/usr/bin/gcc-5      -rdynamic CMakeFiles/cmTC_b9ca6.dir/feature_tests.c.o  -o cmTC_b9ca6 
+make[1]: Leaving directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -180,17 +189,17 @@ make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/M
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3a8a5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3a8a5.dir/build.make CMakeFiles/cmTC_3a8a5.dir/build
-make[1]: 正在进入目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3a8a5.dir/feature_tests.c.o
-/usr/bin/gcc-4.8   -std=c90 -o CMakeFiles/cmTC_3a8a5.dir/feature_tests.c.o   -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3a8a5
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a8a5.dir/link.txt --verbose=1
-/usr/bin/gcc-4.8      -rdynamic CMakeFiles/cmTC_3a8a5.dir/feature_tests.c.o  -o cmTC_3a8a5 
-make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b89ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b89ea.dir/build.make CMakeFiles/cmTC_b89ea.dir/build
+make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b89ea.dir/feature_tests.c.o
+/usr/bin/gcc-5   -std=c90 -o CMakeFiles/cmTC_b89ea.dir/feature_tests.c.o   -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b89ea
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b89ea.dir/link.txt --verbose=1
+/usr/bin/gcc-5      -rdynamic CMakeFiles/cmTC_b89ea.dir/feature_tests.c.o  -o cmTC_b89ea 
+make[1]: Leaving directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -198,68 +207,77 @@ make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/M
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bc57e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bc57e.dir/build.make CMakeFiles/cmTC_bc57e.dir/build
-make[1]: 正在进入目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bc57e.dir/testCXXCompiler.cxx.o
-/usr/bin/g++-4.8     -o CMakeFiles/cmTC_bc57e.dir/testCXXCompiler.cxx.o -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_bc57e
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc57e.dir/link.txt --verbose=1
-/usr/bin/g++-4.8       -rdynamic CMakeFiles/cmTC_bc57e.dir/testCXXCompiler.cxx.o  -o cmTC_bc57e 
-make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_96fe9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_96fe9.dir/build.make CMakeFiles/cmTC_96fe9.dir/build
+make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96fe9.dir/testCXXCompiler.cxx.o
+/usr/bin/g++-5     -o CMakeFiles/cmTC_96fe9.dir/testCXXCompiler.cxx.o -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_96fe9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96fe9.dir/link.txt --verbose=1
+/usr/bin/g++-5       -rdynamic CMakeFiles/cmTC_96fe9.dir/testCXXCompiler.cxx.o  -o cmTC_96fe9 
+make[1]: Leaving directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3fbaa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3fbaa.dir/build.make CMakeFiles/cmTC_3fbaa.dir/build
-make[1]: 正在进入目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3fbaa.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/g++-4.8     -o CMakeFiles/cmTC_3fbaa.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_3fbaa
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fbaa.dir/link.txt --verbose=1
-/usr/bin/g++-4.8      -v -rdynamic CMakeFiles/cmTC_3fbaa.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3fbaa 
+Run Build Command:"/usr/bin/make" "cmTC_8dac5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8dac5.dir/build.make CMakeFiles/cmTC_8dac5.dir/build
+make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8dac5.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++-5     -o CMakeFiles/cmTC_8dac5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_8dac5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dac5.dir/link.txt --verbose=1
+/usr/bin/g++-5      -v -rdynamic CMakeFiles/cmTC_8dac5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8dac5 
 Using built-in specs.
-COLLECT_GCC=/usr/bin/g++-4.8
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+COLLECT_GCC=/usr/bin/g++-5
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.4' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3fbaa' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_3fbaa /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_3fbaa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
-make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8dac5' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1LWkTt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8dac5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_8dac5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3fbaa/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3fbaa.dir/build.make CMakeFiles/cmTC_3fbaa.dir/build]
-  ignore line: [make[1]: 正在进入目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_3fbaa.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/g++-4.8     -o CMakeFiles/cmTC_3fbaa.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_3fbaa]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fbaa.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++-4.8      -v -rdynamic CMakeFiles/cmTC_3fbaa.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3fbaa ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8dac5/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8dac5.dir/build.make CMakeFiles/cmTC_8dac5.dir/build]
+  ignore line: [make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8dac5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++-5     -o CMakeFiles/cmTC_8dac5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_8dac5]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dac5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++-5      -v -rdynamic CMakeFiles/cmTC_8dac5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8dac5 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/g++-4.8]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [COLLECT_GCC=/usr/bin/g++-5]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.4' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.4) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3fbaa' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_3fbaa /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_3fbaa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8dac5' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1LWkTt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8dac5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_8dac5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1LWkTt.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -272,19 +290,19 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3fbaa] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [cmTC_8dac5] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
     arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTC_3fbaa.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_8dac5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -292,56 +310,56 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
   collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
-Detecting CXX [-std=c++1y] compiler features compiled with the following output:
-Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b4f69/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b4f69.dir/build.make CMakeFiles/cmTC_b4f69.dir/build
-make[1]: 正在进入目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b4f69.dir/feature_tests.cxx.o
-/usr/bin/g++-4.8    -std=c++1y -o CMakeFiles/cmTC_b4f69.dir/feature_tests.cxx.o -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b4f69
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4f69.dir/link.txt --verbose=1
-/usr/bin/g++-4.8       -rdynamic CMakeFiles/cmTC_b4f69.dir/feature_tests.cxx.o  -o cmTC_b4f69 
-make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1df42/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1df42.dir/build.make CMakeFiles/cmTC_1df42.dir/build
+make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1df42.dir/feature_tests.cxx.o
+/usr/bin/g++-5    -std=c++1z -o CMakeFiles/cmTC_1df42.dir/feature_tests.cxx.o -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1df42
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1df42.dir/link.txt --verbose=1
+/usr/bin/g++-5       -rdynamic CMakeFiles/cmTC_1df42.dir/feature_tests.cxx.o  -o cmTC_1df42 
+make[1]: Leaving directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
 
 
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
     Feature record: CXX_FEATURE:1cxx_alias_templates
     Feature record: CXX_FEATURE:1cxx_alignas
     Feature record: CXX_FEATURE:1cxx_alignof
     Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
     Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_binary_literals
     Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
     Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
     Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
     Feature record: CXX_FEATURE:1cxx_default_function_template_args
     Feature record: CXX_FEATURE:1cxx_defaulted_functions
     Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
     Feature record: CXX_FEATURE:1cxx_delegating_constructors
     Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_digit_separators
     Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
     Feature record: CXX_FEATURE:1cxx_explicit_conversions
     Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
@@ -349,11 +367,11 @@ make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/M
     Feature record: CXX_FEATURE:1cxx_final
     Feature record: CXX_FEATURE:1cxx_func_identifier
     Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
     Feature record: CXX_FEATURE:1cxx_inheriting_constructors
     Feature record: CXX_FEATURE:1cxx_inline_namespaces
     Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
     Feature record: CXX_FEATURE:1cxx_local_type_template_args
     Feature record: CXX_FEATURE:1cxx_long_long_type
     Feature record: CXX_FEATURE:1cxx_noexcept
@@ -363,8 +381,8 @@ make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/M
     Feature record: CXX_FEATURE:1cxx_range_for
     Feature record: CXX_FEATURE:1cxx_raw_string_literals
     Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:1cxx_right_angle_brackets
     Feature record: CXX_FEATURE:1cxx_rvalue_references
     Feature record: CXX_FEATURE:1cxx_sizeof_member
@@ -377,23 +395,96 @@ make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/M
     Feature record: CXX_FEATURE:1cxx_uniform_initialization
     Feature record: CXX_FEATURE:1cxx_unrestricted_unions
     Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4668/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4668.dir/build.make CMakeFiles/cmTC_d4668.dir/build
+make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d4668.dir/feature_tests.cxx.o
+/usr/bin/g++-5    -std=c++14 -o CMakeFiles/cmTC_d4668.dir/feature_tests.cxx.o -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d4668
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4668.dir/link.txt --verbose=1
+/usr/bin/g++-5       -rdynamic CMakeFiles/cmTC_d4668.dir/feature_tests.cxx.o  -o cmTC_d4668 
+make[1]: Leaving directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a57bc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a57bc.dir/build.make CMakeFiles/cmTC_a57bc.dir/build
-make[1]: 正在进入目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a57bc.dir/feature_tests.cxx.o
-/usr/bin/g++-4.8    -std=c++11 -o CMakeFiles/cmTC_a57bc.dir/feature_tests.cxx.o -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a57bc
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a57bc.dir/link.txt --verbose=1
-/usr/bin/g++-4.8       -rdynamic CMakeFiles/cmTC_a57bc.dir/feature_tests.cxx.o  -o cmTC_a57bc 
-make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_668e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_668e1.dir/build.make CMakeFiles/cmTC_668e1.dir/build
+make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_668e1.dir/feature_tests.cxx.o
+/usr/bin/g++-5    -std=c++11 -o CMakeFiles/cmTC_668e1.dir/feature_tests.cxx.o -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_668e1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_668e1.dir/link.txt --verbose=1
+/usr/bin/g++-5       -rdynamic CMakeFiles/cmTC_668e1.dir/feature_tests.cxx.o  -o cmTC_668e1 
+make[1]: Leaving directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -456,17 +547,17 @@ make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/M
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7486e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7486e.dir/build.make CMakeFiles/cmTC_7486e.dir/build
-make[1]: 正在进入目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7486e.dir/feature_tests.cxx.o
-/usr/bin/g++-4.8    -std=c++98 -o CMakeFiles/cmTC_7486e.dir/feature_tests.cxx.o -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7486e
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7486e.dir/link.txt --verbose=1
-/usr/bin/g++-4.8       -rdynamic CMakeFiles/cmTC_7486e.dir/feature_tests.cxx.o  -o cmTC_7486e 
-make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4bb9d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4bb9d.dir/build.make CMakeFiles/cmTC_4bb9d.dir/build
+make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4bb9d.dir/feature_tests.cxx.o
+/usr/bin/g++-5    -std=c++98 -o CMakeFiles/cmTC_4bb9d.dir/feature_tests.cxx.o -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4bb9d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bb9d.dir/link.txt --verbose=1
+/usr/bin/g++-5       -rdynamic CMakeFiles/cmTC_4bb9d.dir/feature_tests.cxx.o  -o cmTC_4bb9d 
+make[1]: Leaving directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -527,30 +618,30 @@ make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/M
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0fd41/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0fd41.dir/build.make CMakeFiles/cmTC_0fd41.dir/build
-make[1]: 正在进入目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0fd41.dir/CheckIncludeFile.c.o
-/usr/bin/gcc-4.8    -o CMakeFiles/cmTC_0fd41.dir/CheckIncludeFile.c.o   -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_0fd41
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fd41.dir/link.txt --verbose=1
-/usr/bin/gcc-4.8      -rdynamic CMakeFiles/cmTC_0fd41.dir/CheckIncludeFile.c.o  -o cmTC_0fd41 
-make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e4332/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4332.dir/build.make CMakeFiles/cmTC_e4332.dir/build
+make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4332.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-5    -o CMakeFiles/cmTC_e4332.dir/CheckIncludeFile.c.o   -c /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e4332
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4332.dir/link.txt --verbose=1
+/usr/bin/gcc-5      -rdynamic CMakeFiles/cmTC_e4332.dir/CheckIncludeFile.c.o  -o cmTC_e4332 
+make[1]: Leaving directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp
+Change Dir: /home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d691a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d691a.dir/build.make CMakeFiles/cmTC_d691a.dir/build
-make[1]: 正在进入目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d691a.dir/CheckFunctionExists.c.o
-/usr/bin/gcc-4.8   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d691a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d691a
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d691a.dir/link.txt --verbose=1
-/usr/bin/gcc-4.8  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d691a.dir/CheckFunctionExists.c.o  -o cmTC_d691a -lpthread 
-make[1]:正在离开目录 `/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/MY_prj/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_048a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_048a0.dir/build.make CMakeFiles/cmTC_048a0.dir/build
+make[1]: Entering directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_048a0.dir/CheckFunctionExists.c.o
+/usr/bin/gcc-5   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_048a0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_048a0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_048a0.dir/link.txt --verbose=1
+/usr/bin/gcc-5  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_048a0.dir/CheckFunctionExists.c.o  -o cmTC_048a0 -lpthread 
+make[1]: Leaving directory '/home/huanhexiao/WORK/rgbd-slam-tutorial-gx-master/GX_Rgbdslam_JIN/build/CMakeFiles/CMakeTmp'
 
 
